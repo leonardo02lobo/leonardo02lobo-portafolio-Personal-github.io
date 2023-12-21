@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(207, 205, 205);
+}
+
+header {
+    display: flex;
+    background-color: rgb(9, 41, 87);
+    width: 100vw;
+    height: 20vh;
+}
+
+a,
+.logos {
+    width: 25vw;
+    height: 20vh;
+}
+
+.postPrincipal {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+}
+
+p {
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+}
+
+.habilidades {
+    width: 10vw;
+    margin-left: 20px;
+    border-radius: 20%;
+}
+
+.contacto,
+.proyectos {
+    width: 30vw;
+    height: 10vh;
+    font-size: 20px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    border-radius: 7%;
+    text-decoration: none;
+}
+
+.contacto {
+    background-color: brown;
+}
+
+.proyectos {
+    width: 45vw;
+}
+
+.proyecto {
+    width: 100vw;
+    height: 200vh;
+}
+
+.imagenProyecto1 {
+    width: 90vw;
+    height: 40vh;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contenedor-proyectos {
+    margin-top: 50px;
+}
+
+#links {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 20%;
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.contactos {
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    h3{
+    font-size: 20px;
+    padding-top: 3px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+}
