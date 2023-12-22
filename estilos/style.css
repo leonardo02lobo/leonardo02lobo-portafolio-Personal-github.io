@@ -30,6 +30,7 @@ a,
     height: 80vh;
     background-image: url("../imagenes/Programador-freelance-Workana.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -143,26 +144,31 @@ h2 {
         padding-top: 30px;
         font-size: 50px;
         color: rgb(0, 0, 0);
-        padding-left: 400px;
+        padding-left: 600px;
     }
 
     p {
         padding-top: 30px;
         font-size: 30px;
         color: rgb(0, 0, 0);
-        padding-left: 450px;
+        padding-left: 700px;
     }
 
     .habilidades {
         width: 80px;
         margin-left: 20px;
         border-radius: 20%;
+        transition: .5s all;
     }
 
     .img {
         display: flex;
         justify-content: center;
         margin-top: 30px;
+        margin-left: 130px;
+    }
+    .habilidades:hover{
+        width: 100px;
     }
 
     .contacto,
@@ -176,14 +182,54 @@ h2 {
         border-radius: 7%;
         text-decoration: none;
         text-align: center;
+
     }
 
     .contacto {
         background-color: brown;
+        margin-left: 200px;
     }
 
     .boton {
         display: flex;
         justify-content: center;
+    }
+
+    .proyecto {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imagenProyecto1 {
+        width: 800px;
+        height: 400px;
+    }
+
+    .imagen {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 20px
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    .contenedor-proyectos {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    #links {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        height: 20%;
+        text-decoration: none;
+        margin-top: 20px;
+        color: black;
+        font-size: 20px;
+        margin-bottom: 30px;
     }
 }
